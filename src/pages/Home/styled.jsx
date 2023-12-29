@@ -17,14 +17,18 @@ export const AddButton = styled.button `
 
 export const Container = styled.div `
     background-color: #b752ff;
+    text-align: center;
     padding: 20px;
     border-radius: 10px;
+    width: 500px;
+    height: 400px;
     
 
     h1 {
         color: #fff;
     }
     input{
+        width: 75%;
         height: 35px;
         border-radius: 5px;
         margin-top: 30px;
@@ -43,6 +47,11 @@ export const Produto = styled.div`
     border-radius: 5px;
     margin-top: 15px;
     padding: 0 10px;
+
+    p {
+        text-transform: capitalize;
+        font-weight: bold;
+    }
 `
 export const Lixeira = styled.button`
     background: transparent;
@@ -50,8 +59,4 @@ export const Lixeira = styled.button`
     cursor: pointer;
     font-size: 20px;
 
-    p {
-        text-transform: capitalize;
-        font-weight: bold;
-    }
 `
